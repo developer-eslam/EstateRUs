@@ -1,0 +1,323 @@
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment.AngelFragment"
+    >
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3">
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="@dimen/marigntopcardview"
+            android:layout_marginRight="@dimen/marignrightcardview"
+            android:layout_marginLeft="@dimen/marignleftforchildlayutincardview"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/wdithcardview"
+            android:layout_height="@dimen/heightcardview"
+            card_view:cardCornerRadius="@dimen/radiuscornercardview">
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/adds"
+                    />
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/marigntoptextview"
+                    android:textSize="@dimen/textsizeoftextview"
+                    android:textColor="@color/colortablayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addwahda"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="@dimen/marigntopcardview"
+            android:layout_marginLeft="@dimen/marignleftforchildlayutincardview"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/wdithcardview"
+            android:layout_height="88dp"
+            card_view:cardCornerRadius="@dimen/radiuscornercardview">
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/startrent"
+                    />
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/marigntoptextview"
+                    android:textSize="@dimen/textsizeoftextview"
+                    android:textColor="@color/colortablayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tageerwhada"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="@dimen/marigntopcardview"
+            android:layout_marginLeft="@dimen/marignleftforchildlayutincardview"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/wdithcardview"
+            android:layout_height="@dimen/heightcardview"
+            card_view:cardCornerRadius="@dimen/radiuscornercardview">
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/collects"
+                    />
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/marigntoptextview"
+                    android:textSize="@dimen/textsizeoftextview"
+                    android:textColor="@color/colortablayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tahsielegaar"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginRight="@dimen/marignrightcardview"
+            android:layout_marginTop="@dimen/marigntopcardview"
+            android:layout_marginLeft="@dimen/marignleftforchildlayutincardview"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/wdithcardview"
+            android:layout_height="@dimen/heightcardview"
+            card_view:cardCornerRadius="@dimen/radiuscornercardview">
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/report"
+                    />
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/marigntoptextview"
+                    android:textSize="@dimen/textsizeoftextview"
+                    android:textColor="@color/colortablayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/managmentwahdate"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="@dimen/marigntopcardview"
+            android:layout_marginLeft="@dimen/marignleftforchildlayutincardview"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/wdithcardview"
+            android:layout_height="@dimen/heightcardview"
+            card_view:cardCornerRadius="@dimen/radiuscornercardview">
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/settings"
+                    />
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/marigntoptextview"
+                    android:textSize="@dimen/textsizeoftextview"
+                    android:textColor="@color/colortablayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/managmentaccount"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="@dimen/marigntopcardview"
+            android:layout_marginLeft="@dimen/marignleftforchildlayutincardview"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/wdithcardview"
+            android:layout_height="@dimen/heightcardview"
+            card_view:cardCornerRadius="@dimen/radiuscornercardview">
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/report"
+                    />
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/marigntoptextview"
+                    android:textSize="@dimen/textsizeoftextview"
+                    android:textColor="@color/colortablayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reports"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginRight="@dimen/marignrightcardview"
+            android:layout_marginBottom="@dimen/paddingbottomforcaardviewss"
+            android:layout_marginTop="@dimen/marigntopcardview"
+            android:layout_marginLeft="@dimen/marignleftforchildlayutincardview"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/wdithcardview"
+            android:layout_height="@dimen/heightcardview"
+            card_view:cardCornerRadius="@dimen/radiuscornercardview">
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/myrentors"
+                    />
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/marigntoptextview"
+                    android:textSize="@dimen/textsizeoftextview"
+                    android:textColor="@color/colortablayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mostagreen"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_marginBottom="@dimen/paddingbottomforcaardviewss"
+
+            android:layout_marginTop="@dimen/marigntopcardview"
+            android:layout_marginLeft="@dimen/marignleftforchildlayutincardview"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/wdithcardview"
+            android:layout_height="@dimen/heightcardview"
+            card_view:cardCornerRadius="@dimen/radiuscornercardview">
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/chatt"
+                    />
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/marigntoptextview"
+                    android:textSize="@dimen/textsizeoftextview"
+                    android:textColor="@color/colortablayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/communtcaation"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </GridLayout>
+
+</LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+    </android.support.design.widget.CoordinatorLayout>

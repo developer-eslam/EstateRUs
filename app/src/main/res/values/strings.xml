@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">EstateRUs</string>
+
+    <!--  tablayout title-->
+
+
+    <string name="wahdaaaat">وحدات</string>
+    <string name="molaak">ملاك</string>
+    <string name="mostagreen">مستأجرين</string>
+
+    <!--  icons title-->
+    <string name="addwahda">اضافة وحدة</string>
+    <string name="tageerwhada">تأجير وحدة</string>
+    <string name="tahsielegaar">تحصيل ايجار</string>
+    <string name="managmentwahdate">ادارة وحداتي</string>
+    <string name="managmentaccount">اعدادات حسابي</string>
+    <string name="reports">تقارير مفصلة</string>
+    <string name="mstagreen">مستأجريني</string>
+    <string name="communtcaation">التواصل والرسائل</string>
+
+
+    <string name="shoaared">شقة الحمراء 3 </string>
+        
+    <string name="elghrbiaalmota">الغربية المطلة</string>
+
+    <string name="sixmonthes">  6 شهور</string>
+
+    <string name="princetimepay">7000</string>
+    <string name="dayscount">3</string>
+    <string name="timepay">مدة الدفع</string>
+
+   <string name="coins">  ريال</string>
+    <string name="dayss">ايام متبقية</string>
+
+
+
+
+
+    <string name="mahlelthlia">محل التحلية </string>
+
+    <string name="restrauent">المطعم</string>
+
+    <string name="threemonthes">  3 شهور</string>
+
+    <string name="princetimepayofmahlelthlia">16000</string>
+    <string name="mindayscount">3-</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="vilastreetharaa">فيلا شارع حراء</string>
+
+    <string name="threees">الثالثة</string>
+
+
+    <string name="dayscountfive">5</string>
+
+
+
+
+
+    <string name="companyelgmgoom">شركة الجمجوم </string>
+
+    <string name="eldoorthree">الدور الثالث</string>
+
+    <string name="twelvemonthes">  12 شهور</string>
+
+
+
+
+
+    <string name="eagaratemosthka">ايجارات مستحقة قريبا </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- navigation drawer item labels  -->
+
+    <!--<string name="title_messages">الرسائل</string>-->
+    <!--<string name="title_friends">الأصدقاء</string>-->
+    <!--<string name="title_home">الرئيسية</string>-->
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>
+
+
+

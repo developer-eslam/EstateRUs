@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="marigntoplayout">30dp</dimen>
+    <dimen name="widthbutton">120dp</dimen>
+    <dimen name="layout_hight_edittext">35dp</dimen>
+    <dimen name="paddingrightrecyclerview">20dp</dimen>
+    <dimen name="marignrightedittext">15dp</dimen>
+    <dimen name="widthimagelogo">100dp</dimen>
+    <dimen name="hightimagelogo">50dp</dimen>
+    <dimen name="marigntoptitle">10dp</dimen>
+    <dimen name="widthimageviewtoolbar">80dp</dimen>
+    <dimen name="hightimageviewtoolbar">70dp</dimen>
+    <dimen name="widthbuttontoolbar">35dp</dimen>
+    <dimen name="heightbuttontoolbar">35dp</dimen>
+    <dimen name="heightview">3dp</dimen>
+    <dimen name="marigntoptextview">8dp</dimen>
+    <dimen name="wdithcardview">110dp</dimen>
+    <dimen name="heightcardview">90dp</dimen>
+    <dimen name="radiuscornercardview">4dp</dimen>
+    <dimen name="textsizeoftextview">15dp</dimen>
+    <dimen name="marigntopcardview">10dp</dimen>
+    <dimen name="marignleftcardview">5dp</dimen>
+    <dimen name="marignleftforchildlayutincardview">10dp</dimen>
+    <dimen name="widthimageviewmain">80dp</dimen>
+    <dimen name="heightimageviewmain">80dp</dimen>
+    <dimen name="textsizetextviews">15dp</dimen>
+    <dimen name="marigntopntextviews">15dp</dimen>
+    <dimen name="marignrightcardview">10dp</dimen>
+    <dimen name="paddingbottomforcaardviewss">15dp</dimen>
+
+</resources>
